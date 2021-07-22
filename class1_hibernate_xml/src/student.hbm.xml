@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="com.class1_hibernate_xml.model.Student" table="users">
+
+		<id name="email"></id>
+		
+		<property name="name"></property>
+		<property name="pass"></property>
+</class>
+
+</hibernate-mapping>
